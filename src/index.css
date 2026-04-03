@@ -5,11 +5,16 @@
 /* Scroll snap e smooth scroll */
 html {
   scroll-behavior: smooth;
-  scroll-snap-type: y mandatory;
 }
 
-section {
-  scroll-snap-align: start;
+@media (min-width: 768px) {
+  html {
+    scroll-snap-type: y mandatory;
+  }
+
+  section {
+    scroll-snap-align: start;
+  }
 }
 
 /* Scrollbar personalizada */
@@ -573,8 +578,8 @@ html {
 }
 
 #root {
-  width: 1126px;
-  max-width: 100%;
+  width: 100%;
+  max-width: 1126px;
   margin: 0 auto;
   text-align: center;
   border-inline: 1px solid var(--border);
@@ -582,6 +587,7 @@ html {
   display: flex;
   flex-direction: column;
   box-sizing: border-box;
+  overflow-x: hidden;
 }
 
 body {
