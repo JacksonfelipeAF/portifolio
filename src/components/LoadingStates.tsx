@@ -1,5 +1,3 @@
-import React from "react";
-
 export const CardSkeleton = () => (
   <div className="bg-stone-100/80 backdrop-blur-sm rounded-2xl border border-stone-300 p-6 animate-pulse">
     {/* Header skeleton */}
