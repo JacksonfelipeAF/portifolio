@@ -1,0 +1,6 @@
+Portfolio Jackson Felipe
+GitHub: https://github.com/JacksonfelipeAF/portifolio
+Deploy: Netlify
+
+Acesse seu site através do painel Netlify ou GitHub Pages
+NUNCA use URLs como ww1.netfly.app - são sites de phishing!
