@@ -1,0 +1,32 @@
+# Arquivos para commit do projeto Portfolio
+# Estes são os arquivos que devem ser adicionados ao Git
+
+# Arquivos de configuração do projeto
+package.json
+package-lock.json
+vite.config.ts
+tsconfig.json
+tsconfig.app.json
+tsconfig.node.json
+tailwind.config.js
+postcss.config.js
+eslint.config.js
+
+# Arquivos principais
+index.html
+README.md
+.gitignore
+
+# Código fonte (toda a pasta src/)
+src/
+
+# Arquivos públicos
+public/
+
+# NÃO commitar:
+# - node_modules/
+# - dist/
+# - *.log
+# - .vscode/
+# - .idea/
+# - *.local
