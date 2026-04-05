@@ -110,16 +110,22 @@ function ProjectCard({ projeto, i, getStatusColor, hasLoaded }: any) {
       <div className="p-4 bg-stone-50/50 flex gap-3">
         <a
           href={projeto.link}
+          target="_blank"
+          rel="noopener noreferrer"
           className="flex-1 px-4 py-2 bg-amber-600 text-white rounded-lg font-semibold text-sm hover:bg-amber-700 hover:scale-105 transition-all duration-300 text-center hover:shadow-lg hover:shadow-amber-400/30 hover:-translate-y-1"
         >
           Ver Projeto
         </a>
-        <a
-          href={projeto.github}
-          className="flex-1 px-4 py-2 border border-stone-400 rounded-lg font-semibold text-sm hover:bg-stone-200 hover:border-amber-500 hover:text-amber-700 transition-all duration-300 text-center text-stone-600 hover:shadow-md hover:-translate-y-1"
-        >
-          GitHub
-        </a>
+        {projeto.github !== "#" && (
+          <a
+            href={projeto.github}
+            target="_blank"
+            rel="noopener noreferrer"
+            className="flex-1 px-4 py-2 border border-stone-400 rounded-lg font-semibold text-sm hover:bg-stone-200 hover:border-amber-500 hover:text-amber-700 transition-all duration-300 text-center text-stone-600 hover:shadow-md hover:-translate-y-1"
+          >
+            GitHub
+          </a>
+        )}
       </div>
     </div>
   );
