@@ -147,7 +147,7 @@ export default function Projetos() {
       desc: "Jogo clássico do Mario desenvolvido com JavaScript, CSS e HTML puro, com mecânicas de pulo, colisão e pontuação.",
       tecnologias: ["JavaScript", "CSS", "HTML", "Game Dev"],
       status: "Concluído",
-      link: "https://mario-style-20e4aiy03-jacksonfelipeafs-projects.vercel.app/",
+      link: "https://mario-style-my.vercel.app/",
       github: "#",
     },
     {
