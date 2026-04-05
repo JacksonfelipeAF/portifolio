@@ -38,7 +38,7 @@ export default function Contato() {
           </a>
 
           <a
-            href="https://www.linkedin.com/in/jackson-felipe-a7b8b7247/"
+            href="https://www.linkedin.com/in/jackson-felipe-219889188"
             target="_blank"
             rel="noopener noreferrer"
             className="w-12 h-12 bg-stone-700 rounded-full flex items-center justify-center hover:bg-stone-600 transition-colors group"
