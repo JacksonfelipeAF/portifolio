@@ -137,11 +137,11 @@ export default function Projetos() {
       github: "#",
     },
     {
-      nome: "Autenticação JWT",
-      desc: "Sistema seguro com login, token JWT e controle de acesso.",
-      tecnologias: ["Node.js", "JWT", "bcrypt"],
+      nome: "Jogo do Mario",
+      desc: "Jogo clássico do Mario desenvolvido com JavaScript, CSS e HTML puro, com mecânicas de pulo, colisão e pontuação.",
+      tecnologias: ["JavaScript", "CSS", "HTML", "Game Dev"],
       status: "Concluído",
-      link: "#",
+      link: "https://mario-style-20e4aiy03-jacksonfelipeafs-projects.vercel.app/",
       github: "#",
     },
     {
